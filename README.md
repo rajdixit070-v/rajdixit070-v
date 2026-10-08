@@ -2,42 +2,42 @@
 
 <!-- HERO SECTION -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/hero.svg?v=2" alt="Raj Dixit - Hero" width="100%" />
+  <img src="./assets/hero.svg?v=3" alt="Raj Dixit - Hero" width="100%" />
 </a>
 
 <br/>
 
 <!-- ABOUT ME SECTION -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/about.svg?v=2" alt="About Raj Dixit" width="100%" />
+  <img src="./assets/about.svg?v=3" alt="About Raj Dixit" width="100%" />
 </a>
 
 <br/>
 
 <!-- CURRENTLY BUILDING & SHIPPED SYSTEMS -->
 <a href="https://github.com/rajdixit070-v?tab=repositories">
-  <img src="./assets/projects.svg?v=2" alt="Currently Building" width="100%" />
+  <img src="./assets/projects.svg?v=3" alt="Currently Building" width="100%" />
 </a>
 
 <br/>
 
 <!-- TECH STACK -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/stack.svg?v=2" alt="Tech Stack" width="100%" />
+  <img src="./assets/stack.svg?v=3" alt="Tech Stack" width="100%" />
 </a>
 
 <br/>
 
 <!-- DEVELOPMENT CADENCE & JOURNEY -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/stats.svg?v=2" alt="Development Journey & Focus" width="100%" />
+  <img src="./assets/stats.svg?v=3" alt="Development Journey & Focus" width="100%" />
 </a>
 
 <br/>
 
 <!-- CONNECT WITH ME SECTION -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/connect.svg?v=2" alt="Connect With Raj Dixit" width="100%" />
+  <img src="./assets/connect.svg?v=3" alt="Connect With Raj Dixit" width="100%" />
 </a>
 
 </div>

@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" width="100%" height="100%">
   <defs>
     <linearGradient id="aboutDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090D16"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#141E33"/>
     </linearGradient>
     <linearGradient id="accentNeon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#6366F1"/>
       <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
     <filter id="aboutGlow" x="-10%" y="-10%" width="120%" height="125%">
-      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#020617" flood-opacity="0.45"/>
     </filter>
     <style>
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
@@ -17,7 +17,7 @@
   </defs>
 
   <!-- Container Box -->
-  <rect x="10" y="10" width="900" height="340" rx="20" fill="url(#aboutDarkBg)" stroke="#1E293B" stroke-width="1.5" filter="url(#aboutGlow)"/>
+  <rect x="10" y="10" width="900" height="340" rx="20" fill="url(#aboutDarkBg)" stroke="#28354D" stroke-width="1.5" filter="url(#aboutGlow)"/>
 
   <!-- Section Header -->
   <g transform="translate(45, 38)">
@@ -28,7 +28,7 @@
 
   <!-- Left Column: Story & Stance -->
   <g transform="translate(45, 85)">
-    <rect x="0" y="0" width="505" height="235" rx="16" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0" y="0" width="505" height="235" rx="16" fill="#141E33" stroke="#28354D" stroke-width="1"/>
     
     <text x="24" y="32" class="font-sans" font-size="13" font-weight="700" fill="#818CF8" letter-spacing="0.3">PERSPECTIVE</text>
     <text x="24" y="58" class="font-sans" font-size="15.5" font-weight="700" fill="#FFFFFF">Passionate about robust code and tangible outcomes</text>
@@ -42,7 +42,7 @@
 
     <!-- Quote Box -->
     <g transform="translate(24, 168)">
-      <rect x="0" y="0" width="457" height="46" rx="8" fill="#090E1D" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="457" height="46" rx="8" fill="#0F172A" stroke="#28354D" stroke-width="1"/>
       <rect x="0" y="0" width="4" height="46" rx="2" fill="url(#accentNeon)"/>
       <text x="16" y="28" class="font-sans" font-size="12.5" font-weight="600" fill="#E2E8F0" font-style="italic">
         "Write clean code. Solve real problems. Ship meaningful products."
@@ -54,7 +54,7 @@
   <g transform="translate(565, 85)">
     <!-- Pillar 1 -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="310" height="70" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="310" height="70" rx="14" fill="#141E33" stroke="#28354D" stroke-width="1"/>
       <circle cx="28" cy="35" r="16" fill="#312E81"/>
       <text x="22" y="40" class="font-sans" font-size="14">⚡</text>
       <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#F8FAFC">Software Craftsmanship</text>
@@ -63,7 +63,7 @@
 
     <!-- Pillar 2 -->
     <g transform="translate(0, 82)">
-      <rect x="0" y="0" width="310" height="70" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="310" height="70" rx="14" fill="#141E33" stroke="#28354D" stroke-width="1"/>
       <circle cx="28" cy="35" r="16" fill="#064E3B"/>
       <text x="22" y="40" class="font-sans" font-size="14">🧠</text>
       <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#F8FAFC">DSA &amp; Problem Solving</text>
@@ -72,7 +72,7 @@
 
     <!-- Pillar 3 -->
     <g transform="translate(0, 164)">
-      <rect x="0" y="0" width="310" height="71" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="310" height="71" rx="14" fill="#141E33" stroke="#28354D" stroke-width="1"/>
       <circle cx="28" cy="35" r="16" fill="#581C87"/>
       <text x="22" y="40" class="font-sans" font-size="14">🤖</text>
       <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#F8FAFC">AI &amp; Smart Automation</text>
