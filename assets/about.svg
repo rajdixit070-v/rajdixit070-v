@@ -5,14 +5,13 @@
       <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
     <filter id="aboutShadow" x="-10%" y="-10%" width="120%" height="125%">
-      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.04"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.04"/>
     </filter>
     <style>
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
     </style>
   </defs>
 
-  <!-- Container Box -->
   <rect x="8" y="8" width="924" height="344" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#aboutShadow)"/>
 
   <!-- Section Header -->
@@ -48,7 +47,6 @@
 
   <!-- Right Column: 3 Pillars -->
   <g transform="translate(575, 82)">
-    <!-- Pillar 1 -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="320" height="70" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
       <circle cx="28" cy="35" r="16" fill="#EEF2FF"/>
@@ -57,7 +55,6 @@
       <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#64748B">Modular architectures &amp; scalable code</text>
     </g>
 
-    <!-- Pillar 2 -->
     <g transform="translate(0, 82)">
       <rect x="0" y="0" width="320" height="70" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
       <circle cx="28" cy="35" r="16" fill="#F0FDF4"/>
@@ -66,7 +63,6 @@
       <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#64748B">Algorithmic efficiency &amp; optimization</text>
     </g>
 
-    <!-- Pillar 3 -->
     <g transform="translate(0, 164)">
       <rect x="0" y="0" width="320" height="71" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
       <circle cx="28" cy="35" r="16" fill="#FAF5FF"/>
