@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <filter id="cardSh" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.04"/>
+    </filter>
+    <style>
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .pill { transition: all 0.2s ease; }
+    </style>
+  </defs>
+
+  <!-- Container -->
+  <rect x="10" y="10" width="900" height="460" rx="20" fill="url(#stackBg)" stroke="#E2E8F0" stroke-width="1.5" filter="url(#cardSh)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(45, 36)">
+    <rect x="0" y="0" width="115" height="24" rx="6" fill="#EEF2FF"/>
+    <text x="10" y="16" class="font-sans" font-size="10.5" font-weight="800" fill="#4F46E5" letter-spacing="0.5">02 // TECH STACK</text>
+    <text x="130" y="17" class="font-sans" font-size="18" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Skills &amp; Technologies in Action</text>
+  </g>
+
+  <!-- Category 1: LANGUAGES -->
+  <g transform="translate(45, 80)">
+    <rect x="0" y="0" width="405" height="170" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Category Title -->
+    <rect x="18" y="18" width="6" height="18" rx="3" fill="#4F46E5"/>
+    <text x="32" y="32" class="font-sans" font-size="13" font-weight="800" fill="#0F172A" letter-spacing="0.5">LANGUAGES</text>
+    <text x="320" y="32" class="font-sans" font-size="11" font-weight="600" fill="#94A3B8">5 Technologies</text>
+
+    <!-- Chips Grid -->
+    <g transform="translate(18, 55)">
+      <!-- Java -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="105" height="40" rx="10" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#EA580C"/>
+        <text x="16" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">J</text>
+        <text x="38" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#9A3412">Java</text>
+      </g>
+      <!-- C -->
+      <g transform="translate(115, 0)">
+        <rect x="0" y="0" width="85" height="40" rx="10" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1"/>
+        <circle cx="18" cy="20" r="10" fill="#0284C7"/>
+        <text x="14" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">C</text>
+        <text x="36" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#0369A1">C</text>
+      </g>
+      <!-- Python -->
+      <g transform="translate(210, 0)">
+        <rect x="0" y="0" width="120" height="40" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#2563EB"/>
+        <text x="16" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">Py</text>
+        <text x="40" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#1D4ED8">Python</text>
+      </g>
+
+      <!-- Row 2 -->
+      <!-- JavaScript -->
+      <g transform="translate(0, 52)">
+        <rect x="0" y="0" width="135" height="40" rx="10" fill="#FEFCE8" stroke="#FEF08A" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#CA8A04"/>
+        <text x="14" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">JS</text>
+        <text x="40" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#854D0E">JavaScript</text>
+      </g>
+      <!-- SQL -->
+      <g transform="translate(145, 52)">
+        <rect x="0" y="0" width="100" height="40" rx="10" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#7C3AED"/>
+        <text x="14" y="24" class="font-sans" font-size="10" font-weight="800" fill="#FFFFFF">SQL</text>
+        <text x="40" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#6D28D9">SQL</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Category 2: WEB DEVELOPMENT -->
+  <g transform="translate(470, 80)">
+    <rect x="0" y="0" width="405" height="170" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <rect x="18" y="18" width="6" height="18" rx="3" fill="#06B6D4"/>
+    <text x="32" y="32" class="font-sans" font-size="13" font-weight="800" fill="#0F172A" letter-spacing="0.5">WEB DEVELOPMENT</text>
+    <text x="320" y="32" class="font-sans" font-size="11" font-weight="600" fill="#94A3B8">5 Frameworks</text>
+
+    <!-- Chips -->
+    <g transform="translate(18, 55)">
+      <!-- React -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="110" height="40" rx="10" fill="#ECFEFF" stroke="#A5F3FC" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#0891B2"/>
+        <text x="16" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">⚛</text>
+        <text x="38" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#0E7490">React</text>
+      </g>
+      <!-- Node.js -->
+      <g transform="translate(120, 0)">
+        <rect x="0" y="0" width="115" height="40" rx="10" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#16A34A"/>
+        <text x="16" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">⬢</text>
+        <text x="38" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#15803D">Node.js</text>
+      </g>
+      <!-- Tailwind CSS -->
+      <g transform="translate(245, 0)">
+        <rect x="0" y="0" width="125" height="40" rx="10" fill="#F0FDFA" stroke="#99F6E4" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#0D9488"/>
+        <text x="16" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">≈</text>
+        <text x="36" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#0F766E">Tailwind</text>
+      </g>
+
+      <!-- Row 2 -->
+      <!-- HTML -->
+      <g transform="translate(0, 52)">
+        <rect x="0" y="0" width="110" height="40" rx="10" fill="#FFF1F2" stroke="#FECDD3" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#E11D48"/>
+        <text x="15" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">&lt;&gt;</text>
+        <text x="38" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#BE123C">HTML5</text>
+      </g>
+      <!-- CSS -->
+      <g transform="translate(120, 52)">
+        <rect x="0" y="0" width="105" height="40" rx="10" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1"/>
+        <circle cx="20" cy="20" r="10" fill="#0284C7"/>
+        <text x="16" y="24" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">#</text>
+        <text x="38" y="24" class="font-sans" font-size="12.5" font-weight="700" fill="#0369A1">CSS3</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Category 3: TOOLS & ENVIRONMENT -->
+  <g transform="translate(45, 270)">
+    <rect x="0" y="0" width="405" height="170" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <rect x="18" y="18" width="6" height="18" rx="3" fill="#10B981"/>
+    <text x="32" y="32" class="font-sans" font-size="13" font-weight="800" fill="#0F172A" letter-spacing="0.5">DEV TOOLS &amp; WORKFLOW</text>
+    <text x="320" y="32" class="font-sans" font-size="11" font-weight="600" fill="#94A3B8">3 Utilities</text>
+
+    <g transform="translate(18, 65)">
+      <!-- Git -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="100" height="44" rx="10" fill="#FFF1F2" stroke="#FECDD3" stroke-width="1"/>
+        <circle cx="22" cy="22" r="11" fill="#F43F5E"/>
+        <text x="17" y="26" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">⎇</text>
+        <text x="42" y="27" class="font-sans" font-size="13" font-weight="700" fill="#BE123C">Git</text>
+      </g>
+      <!-- GitHub -->
+      <g transform="translate(112, 0)">
+        <rect x="0" y="0" width="120" height="44" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+        <circle cx="22" cy="22" r="11" fill="#1E293B"/>
+        <text x="17" y="26" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">🐙</text>
+        <text x="42" y="27" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">GitHub</text>
+      </g>
+      <!-- VS Code -->
+      <g transform="translate(242, 0)">
+        <rect x="0" y="0" width="125" height="44" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+        <circle cx="22" cy="22" r="11" fill="#2563EB"/>
+        <text x="17" y="26" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">💻</text>
+        <text x="42" y="27" class="font-sans" font-size="13" font-weight="700" fill="#1D4ED8">VS Code</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Category 4: AI & AUTOMATION -->
+  <g transform="translate(470, 270)">
+    <rect x="0" y="0" width="405" height="170" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <!-- Title -->
+    <rect x="18" y="18" width="6" height="18" rx="3" fill="#8B5CF6"/>
+    <text x="32" y="32" class="font-sans" font-size="13" font-weight="800" fill="#0F172A" letter-spacing="0.5">AI &amp; APPLIED COMPUTING</text>
+    <text x="310" y="32" class="font-sans" font-size="11" font-weight="600" fill="#94A3B8">3 Domains</text>
+
+    <g transform="translate(18, 65)">
+      <!-- AI APIs -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="112" height="44" rx="10" fill="#FAF5FF" stroke="#E9D5FF" stroke-width="1"/>
+        <circle cx="22" cy="22" r="11" fill="#9333EA"/>
+        <text x="16" y="26" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">⚡</text>
+        <text x="40" y="27" class="font-sans" font-size="12.5" font-weight="700" fill="#7E22CE">AI APIs</text>
+      </g>
+      <!-- Automation -->
+      <g transform="translate(122, 0)">
+        <rect x="0" y="0" width="124" height="44" rx="10" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+        <circle cx="22" cy="22" r="11" fill="#16A34A"/>
+        <text x="16" y="26" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">⚙</text>
+        <text x="40" y="27" class="font-sans" font-size="12.5" font-weight="700" fill="#15803D">Automation</text>
+      </g>
+      <!-- Computer Vision -->
+      <g transform="translate(256, 0)">
+        <rect x="0" y="0" width="114" height="44" rx="10" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+        <circle cx="22" cy="22" r="11" fill="#7C3AED"/>
+        <text x="16" y="26" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">👁</text>
+        <text x="40" y="27" class="font-sans" font-size="12" font-weight="700" fill="#6D28D9">Comp Vision</text>
+      </g>
+    </g>
+  </g>
+</svg>
