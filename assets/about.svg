@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" width="100%" height="100%">
   <defs>
-    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#F8FAFC"/>
+    <linearGradient id="aboutDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4F46E5"/>
+    <linearGradient id="accentNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
       <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
-    <filter id="aboutShadow" x="-10%" y="-10%" width="120%" height="125%">
-      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.04"/>
+    <filter id="aboutGlow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
     <style>
       .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
@@ -17,34 +17,34 @@
   </defs>
 
   <!-- Container Box -->
-  <rect x="10" y="10" width="900" height="340" rx="20" fill="url(#aboutBg)" stroke="#E2E8F0" stroke-width="1.5" filter="url(#aboutShadow)"/>
+  <rect x="10" y="10" width="900" height="340" rx="20" fill="url(#aboutDarkBg)" stroke="#1E293B" stroke-width="1.5" filter="url(#aboutGlow)"/>
 
   <!-- Section Header -->
   <g transform="translate(45, 38)">
-    <rect x="0" y="0" width="112" height="24" rx="6" fill="#EEF2FF"/>
-    <text x="10" y="16" class="font-sans" font-size="10.5" font-weight="800" fill="#4F46E5" letter-spacing="0.5">01 // ABOUT ME</text>
-    <text x="126" y="17" class="font-sans" font-size="18" font-weight="800" fill="#0F172A" letter-spacing="-0.3">Engineering Mindset &amp; Philosophy</text>
+    <rect x="0" y="0" width="112" height="24" rx="6" fill="#312E81"/>
+    <text x="10" y="16" class="font-sans" font-size="10.5" font-weight="800" fill="#C7D2FE" letter-spacing="0.5">01 // ABOUT ME</text>
+    <text x="126" y="17" class="font-sans" font-size="18" font-weight="800" fill="#F8FAFC" letter-spacing="-0.3">Engineering Mindset &amp; Philosophy</text>
   </g>
 
   <!-- Left Column: Story & Stance -->
   <g transform="translate(45, 85)">
-    <rect x="0" y="0" width="505" height="235" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="0" y="0" width="505" height="235" rx="16" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
     
-    <text x="24" y="32" class="font-sans" font-size="13" font-weight="700" fill="#4F46E5" letter-spacing="0.3">PERSPECTIVE</text>
-    <text x="24" y="58" class="font-sans" font-size="15.5" font-weight="700" fill="#0F172A">Passionate about robust code and tangible outcomes</text>
+    <text x="24" y="32" class="font-sans" font-size="13" font-weight="700" fill="#818CF8" letter-spacing="0.3">PERSPECTIVE</text>
+    <text x="24" y="58" class="font-sans" font-size="15.5" font-weight="700" fill="#FFFFFF">Passionate about robust code and tangible outcomes</text>
     
-    <text x="24" y="90" class="font-sans" font-size="13.5" font-weight="400" fill="#334155" line-height="22">
-      <tspan x="24" dy="0">I'm a Computer Science student and software developer based in India,</tspan>
-      <tspan x="24" dy="24">driven by building reliable applications and solving complex algorithmic</tspan>
-      <tspan x="24" dy="24">challenges. I bridge foundational computer science with modern full-stack</tspan>
-      <tspan x="24" dy="24">engineering and intelligent automation.</tspan>
+    <text x="24" y="90" class="font-sans" font-size="13.5" font-weight="400" fill="#94A3B8" line-height="22">
+      <tspan x="24" dy="0">Computer Science undergraduate and full-stack software builder from</tspan>
+      <tspan x="24" dy="24">Kanpur, India. Dedicated to crafting production systems end-to-end</tspan>
+      <tspan x="24" dy="24">with React, Node.js, and MongoDB, bridging algorithmic foundations</tspan>
+      <tspan x="24" dy="24">with modern AI automation workflows.</tspan>
     </text>
 
     <!-- Quote Box -->
     <g transform="translate(24, 168)">
-      <rect x="0" y="0" width="457" height="46" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
-      <rect x="0" y="0" width="4" height="46" rx="2" fill="url(#accentLine)"/>
-      <text x="16" y="28" class="font-sans" font-size="12.5" font-weight="600" fill="#1E293B" font-style="italic">
+      <rect x="0" y="0" width="457" height="46" rx="8" fill="#090E1D" stroke="#1E293B" stroke-width="1"/>
+      <rect x="0" y="0" width="4" height="46" rx="2" fill="url(#accentNeon)"/>
+      <text x="16" y="28" class="font-sans" font-size="12.5" font-weight="600" fill="#E2E8F0" font-style="italic">
         "Write clean code. Solve real problems. Ship meaningful products."
       </text>
     </g>
@@ -54,29 +54,29 @@
   <g transform="translate(565, 85)">
     <!-- Pillar 1 -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="310" height="70" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
-      <circle cx="28" cy="35" r="16" fill="#EEF2FF"/>
+      <rect x="0" y="0" width="310" height="70" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="28" cy="35" r="16" fill="#312E81"/>
       <text x="22" y="40" class="font-sans" font-size="14">⚡</text>
-      <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">Software Craftsmanship</text>
-      <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#64748B">Modular architectures &amp; scalable code</text>
+      <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#F8FAFC">Software Craftsmanship</text>
+      <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#94A3B8">Modular architectures &amp; scalable code</text>
     </g>
 
     <!-- Pillar 2 -->
     <g transform="translate(0, 82)">
-      <rect x="0" y="0" width="310" height="70" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
-      <circle cx="28" cy="35" r="16" fill="#F0FDF4"/>
+      <rect x="0" y="0" width="310" height="70" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="28" cy="35" r="16" fill="#064E3B"/>
       <text x="22" y="40" class="font-sans" font-size="14">🧠</text>
-      <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">DSA &amp; Problem Solving</text>
-      <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#64748B">Algorithmic efficiency &amp; optimization</text>
+      <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#F8FAFC">DSA &amp; Problem Solving</text>
+      <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#94A3B8">Algorithmic efficiency &amp; optimization</text>
     </g>
 
     <!-- Pillar 3 -->
     <g transform="translate(0, 164)">
-      <rect x="0" y="0" width="310" height="71" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
-      <circle cx="28" cy="35" r="16" fill="#FAF5FF"/>
+      <rect x="0" y="0" width="310" height="71" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="28" cy="35" r="16" fill="#581C87"/>
       <text x="22" y="40" class="font-sans" font-size="14">🤖</text>
-      <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#0F172A">AI &amp; Smart Automation</text>
-      <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#64748B">Intelligent tools &amp; workflow pipelines</text>
+      <text x="56" y="28" class="font-sans" font-size="13" font-weight="700" fill="#F8FAFC">AI &amp; Smart Automation</text>
+      <text x="56" y="48" class="font-sans" font-size="11.5" font-weight="500" fill="#94A3B8">Intelligent tools &amp; workflow pipelines</text>
     </g>
   </g>
 </svg>
