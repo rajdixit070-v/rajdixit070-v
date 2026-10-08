@@ -2,42 +2,42 @@
 
 <!-- HERO SECTION -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/hero.svg?v=5" alt="Raj Dixit - Hero" width="100%" />
+  <img src="./assets/hero.svg?v=6" alt="Raj Dixit - Hero" width="100%" />
 </a>
 
 <br/>
 
 <!-- ABOUT ME SECTION -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/about.svg?v=5" alt="About Raj Dixit" width="100%" />
+  <img src="./assets/about.svg?v=6" alt="About Raj Dixit" width="100%" />
 </a>
 
 <br/>
 
 <!-- CURRENTLY BUILDING & SHIPPED SYSTEMS -->
 <a href="https://github.com/rajdixit070-v?tab=repositories">
-  <img src="./assets/projects.svg?v=5" alt="Currently Building" width="100%" />
+  <img src="./assets/projects.svg?v=6" alt="Currently Building" width="100%" />
 </a>
 
 <br/>
 
 <!-- TECH STACK -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/stack.svg?v=5" alt="Tech Stack" width="100%" />
+  <img src="./assets/stack.svg?v=6" alt="Tech Stack" width="100%" />
 </a>
 
 <br/>
 
 <!-- DEVELOPMENT CADENCE & JOURNEY -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/stats.svg?v=5" alt="Development Journey & Focus" width="100%" />
+  <img src="./assets/stats.svg?v=6" alt="Development Journey & Focus" width="100%" />
 </a>
 
 <br/>
 
 <!-- CONNECT WITH ME SECTION -->
 <a href="https://github.com/rajdixit070-v">
-  <img src="./assets/connect.svg?v=5" alt="Connect With Raj Dixit" width="100%" />
+  <img src="./assets/connect.svg?v=6" alt="Connect With Raj Dixit" width="100%" />
 </a>
 
 </div>
@@ -51,8 +51,8 @@ Connect with me directly or inspect my deployed web applications:
 | Platform | Destination / Description | Direct Link |
 | :--- | :--- | :--- |
 | **🐙 GitHub** | Source Code & 26+ Repositories | [![GitHub](https://img.shields.io/badge/GitHub-rajdixit070--v-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajdixit070-v) |
-| **💼 LinkedIn** | Professional Profile & Career Updates | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Raj%20Dixit-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raj-d17b44239aixit-) |
-| **🌐 Portfolio Repo** | Three.js & Modern Web Portfolio Code | [![Portfolio](https://img.shields.io/badge/Portfolio%20Repo-My--Portfolio-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajdixit070-v/My-Portfolio) |
+| **💼 LinkedIn** | Professional Profile & Network | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Raj%20Dixit-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raj-dixit-17b44239a/) |
+| **🌐 Portfolio** | Personal Live Portfolio Site | [![Portfolio](https://img.shields.io/badge/Portfolio-rajdixitportfolio.netlify.app-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rajdixitportfolio.netlify.app/) |
 | **✉️ Email** | Direct Developer Inquiries | [![Email](https://img.shields.io/badge/Email-rajdixit070%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajdixit070@gmail.com) |
 
 ---

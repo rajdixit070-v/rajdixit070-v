@@ -671,24 +671,28 @@ connect_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 370" 
       </g>
 
       <!-- LinkedIn Card -->
-      <g transform="translate(0, 56)">
-        <rect x="0" y="0" width="475" height="46" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
-        <circle cx="24" cy="23" r="12" fill="#0A66C2"/>
-        <text x="18" y="28" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">in</text>
-        <text x="48" y="28" class="font-sans" font-size="13" font-weight="700" fill="#0A66C2">LinkedIn (Raj Dixit)</text>
-        <text x="215" y="28" class="font-sans" font-size="12" font-weight="500" fill="#64748B">— Professional Network &amp; Career</text>
-        <text x="445" y="28" class="font-sans" font-size="14" font-weight="700" fill="#0A66C2">→</text>
-      </g>
+      <a href="https://www.linkedin.com/in/raj-dixit-17b44239a/" target="_blank">
+        <g transform="translate(0, 56)">
+          <rect x="0" y="0" width="475" height="46" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <circle cx="24" cy="23" r="12" fill="#0A66C2"/>
+          <text x="18" y="28" class="font-sans" font-size="11" font-weight="800" fill="#FFFFFF">in</text>
+          <text x="48" y="28" class="font-sans" font-size="13" font-weight="700" fill="#0A66C2">LinkedIn</text>
+          <text x="110" y="28" class="font-sans" font-size="12" font-weight="500" fill="#64748B">— in/raj-dixit-17b44239a</text>
+          <text x="445" y="28" class="font-sans" font-size="14" font-weight="700" fill="#0A66C2">→</text>
+        </g>
+      </a>
 
       <!-- Portfolio Card -->
-      <g transform="translate(0, 112)">
-        <rect x="0" y="0" width="475" height="46" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
-        <circle cx="24" cy="23" r="12" fill="#7C3AED"/>
-        <text x="17" y="28" class="font-sans" font-size="12" font-weight="800" fill="#FFFFFF">🌐</text>
-        <text x="48" y="28" class="font-sans" font-size="13" font-weight="700" fill="#7C3AED">Portfolio &amp; Shipped Apps</text>
-        <text x="235" y="28" class="font-sans" font-size="12" font-weight="500" fill="#64748B">— AttendX, LibSphere &amp; Live Demos</text>
-        <text x="445" y="28" class="font-sans" font-size="14" font-weight="700" fill="#7C3AED">→</text>
-      </g>
+      <a href="https://rajdixitportfolio.netlify.app/" target="_blank">
+        <g transform="translate(0, 112)">
+          <rect x="0" y="0" width="475" height="46" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+          <circle cx="24" cy="23" r="12" fill="#7C3AED"/>
+          <text x="17" y="28" class="font-sans" font-size="12" font-weight="800" fill="#FFFFFF">🌐</text>
+          <text x="48" y="28" class="font-sans" font-size="13" font-weight="700" fill="#7C3AED">Portfolio</text>
+          <text x="110" y="28" class="font-sans" font-size="12" font-weight="500" fill="#64748B">— rajdixitportfolio.netlify.app</text>
+          <text x="445" y="28" class="font-sans" font-size="14" font-weight="700" fill="#7C3AED">→</text>
+        </g>
+      </a>
     </g>
 
     <!-- Subnote -->
